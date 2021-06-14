@@ -25,8 +25,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/EditText1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/EditView_text"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColor="#6495ed"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif" />
     
     <Button
         android:layout_width="wrap_content"
